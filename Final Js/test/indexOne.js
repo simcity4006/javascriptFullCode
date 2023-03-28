@@ -1,0 +1,1 @@
+export let foysal="hello world";

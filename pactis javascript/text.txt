@@ -1,0 +1,188 @@
+ <!-- <ul class="parandiv">
+        <li class="foysal">firstchild</li>
+        <li>secondchild</li>
+        <li class="tumi to samner ta ke call kor">3rdchild</li>
+        <li class="middlechild">middlechild</li>
+        <li class="nest for the us">firstchild</li>
+        <li class="lastChild">firstchild</li>
+
+    </ul> -->
+
+
+    
+<div id="menu"></div>
+
+
+
+// let parandiv= document.querySelector(".parandiv");
+// console.log(
+// parandiv.children
+// )
+
+// let next =document.querySelector(".middlechild");
+// console.log(next.previousElementSibling)
+
+// let div=document.createElement("div")
+// div.id="foysalid "
+// div.className="foysalClass"
+
+// div.innerHTML="<h1>this is a paragraph tag</h1>"
+// let text=document.createTextNode("inner html foysal ahmed sorker and bamnishair")
+// let h1=document.createElement("h1")
+// div.appendChild(h1)
+// div.appendChild(text)
+// document.body.appendChild(div)
+
+
+// let div=document.createElement("div")
+
+
+// let text=document.createTextNode("akhane akti text node create korlam")
+// let h1 =document.createElement("h1")
+// div.appendChild(text)
+// div.appendChild(h1)
+// h1.textContent="this a h1"
+// document.body.appendChild(div)
+
+
+// let ul=document.createElement("ul")
+// let li=document.createElement("ul")
+
+
+// let div=document.createElement("div")
+// let text =document.createTextNode("this is a text note for my foysal ahmed sorker")
+// div.appendChild(text)
+
+// document.body.appendChild(div)
+
+// let ul =document.createElement("ul")
+// ul.id="ulid"
+// let li1=document.createElement("li")
+// li1.textContent="Home"
+// ul.appendChild(li1)
+// let li2=document.createElement("li")
+// li2.textContent="about"
+// ul.appendChild(li2)
+// let li3=document.createElement("li")
+// li3.textContent="service"
+// ul.appendChild(li3)
+// let li4=document.createElement("li")
+// li4.textContent="portfolio"
+// ul.appendChild(li4)
+
+
+
+// document.body.appendChild(ul)
+
+
+
+
+// let menu=document.querySelector("#menu")
+
+
+// function createFirst(name){
+//     let li =document.createElement("li")
+//     li.textContent=name;
+//     return li
+
+// }
+// menu.appendChild(createFirst("foysal ahmed sorker "))
+// menu.appendChild(createFirst("faruk islam hakim "))
+// menu.appendChild(createFirst("forhad sorker hakim "))
+
+
+
+let foydal=document.querySelector("#menu")
+function secode(age){
+    let li=document.createElement("li")
+    li.textContent=age
+    return li
+}
+
+foydal.appendChild(secode("12"))
+foydal.appendChild(secode("13"))
+foydal.appendChild(secode("14"))
+
+
+
+
+
+   <p>"this is a inner html of detail"</p>
+        <p>"this is a inner foysal ahmed sorker</p>
+        <!-- text content
+        <span style="display:none;">THIS IS A SIMCITY PROGRAMMER </span> -->
+
+
+
+
+// console.log(note.innerText)
+
+
+let note= document.getElementById("note")
+
+console.log(note.innerHTML)
+
+
+
+    <div id="note">
+     
+    </div>
+
+
+
+    let menu= document.querySelector("#note");
+// let p=document.createElement("p")
+// p.textContent="js dom tutorial for simcity"
+// menu.appendChild(p)
+menu.innerHTML="<h1>this is dom"
+
+
+
+    <style> -->
+        #track{
+
+        background-color: gold;
+        height: 300px;
+        width: 300px;
+
+        }        
+    
+    </style> 
+    
+<!-- 
+<ul id="app">
+    <li>fullName</li>
+
+</ul>
+<ul id="apps">
+    <li>phone model</li>
+
+</ul> -->
+
+
+<!-- <div id="menu">
+    <li>1st element</li>
+    <li>2nd element</li>
+    <li>3rd element</li>
+</div> -->
+
+
+<!-- <div>
+
+</div> -->
+<!-- <button class="foysal" id="hasan" target="_blank">button for</button> -->
+<!-- <button id="fid" class="foysal tumi ai ta balo manus ok " target="this target">foysal</button> -->
+
+<!-- <p class="menu have give">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, iure.</p> -->
+<!-- <button  id="btn" target="_blank">button</button> -->
+
+
+<!-- 
+<div id="menu" class="classMenu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur optio beatae provident?</div> -->
+
+
+<!-- <div  style="width: 100px; height: 100px; background-color: yellow;"></div> -->
+<!-- <button id="btn" onclick="">clickme</button> -->
+<!-- <h1>hello world</h1>
+ -->
+ <input type="text" id="message">
